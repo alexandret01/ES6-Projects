@@ -30,7 +30,7 @@
 
     1º Projeto Foi usado para conhecimento do framework
 
-    2º 
+    2º Funções e Objetos
 
     3º Estudo pessoal!
 
@@ -38,6 +38,6 @@
 
     1º Projeto Foi usado para conhecimento do framework
 
-    2º 
+    2º Classes e Herança
 
     3º Estudo pessoal!
