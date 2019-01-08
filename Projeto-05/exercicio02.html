@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Curso de EcmaScript 6.0</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.min.js"></script>
+    <script type="text/babel">
+
+            class Poligono{
+                constructor (lados, altura, largura, nome){
+                    this.lados = lados;
+                    this.altura = altura;
+                    this.largura = largura;
+                    this.nome = nome;
+                }
+
+                escreverDados(){
+                    console.log(`Eu sou ${this.nome} Tenho ${this.lados}, tenho ${this.altura} de altura e ${this.largura} de largura`);
+                }
+
+            }
+
+            class Quadrado extends Poligono{
+                constructor (altura, largura){
+                    super(4, altura, largura, "Quadrado");
+                }
+            }
+
+            var hexagono = new Poligono(6, 10, 8, 'hexagono');
+            hexagono.escreverDados();
+
+        </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
